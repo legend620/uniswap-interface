@@ -274,6 +274,9 @@ export default function Header() {
         </UniIcon>
       </Title>
       <HeaderLinks>
+        <StyledNavLink id={`limit-orders-nav-link`} to={'/limit-orders'}>
+          <Trans>Limit Orders</Trans>
+        </StyledNavLink>
         <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
           <Trans>Swap</Trans>
         </StyledNavLink>
